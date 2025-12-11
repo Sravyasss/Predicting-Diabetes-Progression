@@ -31,20 +31,17 @@ predicting-diabetes/
 │
 ├── data/
 │   ├── diabetes_dataset.csv               # Original dataset (100,000 records)
-│   ├── prediction_results.csv             # Prediction csv
-│   └── test_patients.csv                  # Test data csv
+│   ├── prediction_results.csv             # Model prediction results 
+│   └── test_patients.csv                  # Input records used to generate predictions
 │ 
 ├── code/
-│   ├── Main.py                            # Main pipeline implementation
-│   ├── diabetes_prediction_complete.py    
+│   ├── Main.py                            # Main pipeline implementation  
 │   └── test_model.py                      
 │
 ├── outputs/
 │   ├── best_model_improved.pkl            # Model one drive link mentioned below
 │   ├── scaler_improved.pkl                # StandardScaler object
-│   ├── label_encoder_improved.pkl         # Label encoder object
-│   └── catboost/
-│      ├── catboost_training.json  
+│   └── label_encoder_improved.pkl         # Label encoder object
 │
 │
 ├── report/
@@ -69,7 +66,13 @@ predicting-diabetes/
 
 
 ```
-Best-Model-Imporved_Pkl file: [best_model_improved.pkl](https://redhawks-my.sharepoint.com/:u:/g/personal/smurala_seattleu_edu/IQAP5mDpUOeNSpwju-D3cHfYAUNH-AWlvl7IDpWNeIlO9Co?e=ddI6Tv)
+Best Model Imporved-Pkl file: [best_model_improved.pkl](https://redhawks-my.sharepoint.com/:u:/g/personal/smurala_seattleu_edu/IQAP5mDpUOeNSpwju-D3cHfYAUNH-AWlvl7IDpWNeIlO9Co?e=ddI6Tv)
+
+## How to Run
+1. Install dependencies listed in `requirements.txt`.
+2. To run the main pipeline execute: `Main.py`.
+3. To load the saved model and generate predictions on test data execute: `test_model.py`.
+4. The existing model is saved in this location [best_model_improved.pkl](https://redhawks-my.sharepoint.com/:u:/g/personal/smurala_seattleu_edu/IQAP5mDpUOeNSpwju-D3cHfYAUNH-AWlvl7IDpWNeIlO9Co?e=ddI6Tv). It was trained on Python 3.9
 ---
 
 ## Data
@@ -184,6 +187,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Chawla, N. V., et al. (2002). SMOTE: Synthetic minority over-sampling technique. *Journal of Artificial Intelligence Research*, 16, 321-357.
 - World Health Organization. (2025). Diabetes. Retrieved from the [link](https://www.who.int/health-topics/diabetes)
 - American Diabetes Association (2021). Classification and diagnosis of diabetes: Standards of medical care in diabetes—2021. 
+
 
 
 
