@@ -39,7 +39,7 @@ predicting-diabetes/
 │   └── test_model.py                      
 │
 ├── outputs/
-│   ├── best_model_improved.pkl            # Model one drive link mentioned below
+│   ├── best_model_improved.pkl            # Model OneDrive link mentioned below
 │   ├── scaler_improved.pkl                # StandardScaler object
 │   └── label_encoder_improved.pkl         # Label encoder object
 │
@@ -187,6 +187,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Chawla, N. V., et al. (2002). SMOTE: Synthetic minority over-sampling technique. *Journal of Artificial Intelligence Research*, 16, 321-357.
 - World Health Organization. (2025). Diabetes. Retrieved from the [link](https://www.who.int/health-topics/diabetes)
 - American Diabetes Association (2021). Classification and diagnosis of diabetes: Standards of medical care in diabetes—2021. 
+
 
 
 
